@@ -12,6 +12,12 @@ export default function SignUpClient() {
   const [email, setEmail] = useState("");
   const [zip, setZip] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
+  const [Kind, setKind] = useState("");
+  const [Service, setService] = useState("");
+  const handelKind = () => {
+    const craftSelect = document.getElementById("craft");
+    craftSelect.style.display = "flex";
+  };
   const RegisterNow = async (e) => {
     e.preventDefault();
     await axios.post("http://localhost:3001/register", {
@@ -23,10 +29,12 @@ export default function SignUpClient() {
       address,
       zip,
       phoneNumber,
+      Kind,
+      Service,
     });
     alert("Admin created");
   };
-  const {t} = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="container con">
@@ -185,7 +193,54 @@ export default function SignUpClient() {
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>
+          <div className="Kind">
+            <input
+              type="radio"
+              class="btn-check"
+              name="Client"
+              id="option1"
+              autocomplete="off"
+              onChange={(e) => setKind(e.target.name)}
+              onClick={(e) => console.log(e.target.name)}
+            />
+            <label class="btn btn-secondary" for="option1">
+              Client
+            </label>
 
+            <input
+              type="radio"
+              class="btn-check"
+              name="Craftman"
+              id="option2"
+              autocomplete="off"
+              onClick={handelKind}
+              onChange={(e) => setKind(e.target.name)}
+              
+            />
+            <label class="btn btn-secondary" for="option2">
+              Crafman
+            </label>
+          </div>
+          <br />
+          <select
+            id="craft"
+            className="form-select mb-3"
+            aria-label="Default select example"
+            style={{ width: "270px" }}
+            onChange={(e) => setService(e.target.value)}
+          >
+            <option selected> choose your craft</option>
+            <option value="Electricity">Electricity</option>
+            <option value="Carpentry">Carpentry</option>
+            <option value="Conditioning">Conditioning</option>
+            <option value="Cleaning service">Cleaning service</option>
+            <option value="Painting">Painting</option>
+            <option value="Plastering">Plastering</option>
+            <option value="Plumbing">Plumbing</option>
+            <option value="Home Appliances">Home Appliances</option>
+            <option value="Satellite&Receiver">Satellite&Receiver</option>
+          </select>
+          <br />
           <button type="submit" className="btn btn-sign">
             {t("register")}
           </button>

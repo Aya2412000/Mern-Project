@@ -46,7 +46,10 @@ app.post("/register", async (req, res) => {
     email,
     address,
     phoneNumber,
-  zip} = req.body;
+    zip,
+    Kind,
+    Service,
+  } = req.body;
   // search for admin is exists or not
   const admin = await AdminModel.findOne({ username });
   admin && res.send(admin.address);
@@ -68,6 +71,8 @@ app.post("/register", async (req, res) => {
     address,
     phoneNumber,
     zip,
+    Kind,
+    Service,
   });
   await newAdmin.save();
   return res.json({ message: "Admin created succefully" });

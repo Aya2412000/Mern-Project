@@ -34,6 +34,14 @@ const AdminSchema = new Schema({
     type: String,
     requried: true,
   },
+  Kind: {
+    type: String,
+    requried: true,
+  },
+  Service: {
+    type: String,
+    requried: true,
+  },
 });
 
 const AdminModel = model("Admins", AdminSchema);

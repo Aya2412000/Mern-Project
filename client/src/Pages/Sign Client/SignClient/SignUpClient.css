@@ -45,10 +45,18 @@ input {
   color: #ef6114;
   font-weight: bold;
 }
-
-
-
-
+.Kind{
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  gap: 2px;
+}
+.Kind input{
+  align-items: center;
+}
+#craft {
+  display: none;
+}
 
 ::placeholder {
   text-align: inherit;
