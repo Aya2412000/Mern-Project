@@ -6,11 +6,12 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import SignNewProvider from "./Pages/Sign As Provider/SignNewProvider";
 import Electricity from "./All-Services/Electricity/Electricity";
 import SignClient from "./Pages/Sign Client/SignClient";
-import LogIn from "./Pages/LogIn/LogIn";
+
 import ContactUs from "./Pages/Contact Us/ContactUs";
 import Profile from "./Pages/Profile/Profile";
-
+import LogIn from "./Pages/LogIn/LogIn";
 import ContactUsProfile from "./Pages/Profile/Contact Us/ContactUsProfile";
+import LOGIN from "./Pages/LogIn/LOG/LOGIN";
 
 export default function App() {
   return (
@@ -18,13 +19,12 @@ export default function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/signAsProvider" element={<SignNewProvider />} />
-        <Route exact path="/signup" element={<SignClient />} />
+        <Route exact path="/register" element={<SignClient />} />
         <Route exact path="/login" element={<LogIn />} />
         <Route exact path="/contactUs" element={<ContactUs />} />
         <Route exact path="/profile" element={<Profile />} />
         <Route exact path="/contactUsProfile" element={<ContactUsProfile />} />
         <Route exact path="/electricity" element={<Electricity />} />
-        
       </Routes>
     </BrowserRouter>
   );

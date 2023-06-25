@@ -3,10 +3,12 @@ import "./LOGIN.css";
 
 import axios from "axios";
 import { useCookies } from "react-cookie";
+import { useLocation } from "react-router";
+import { useTranslation } from "react-i18next";
 export default function LOGIN() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-
+  const { t } = useTranslation();
   const [_, setCookies] = useCookies(["access_token"]);
 
   const LoginNow = async (e) => {
@@ -21,14 +23,14 @@ export default function LOGIN() {
   };
   return (
     <div className="container con">
-      <h1> Welcome to Herfa</h1>
-      <div className="h-Line"></div>
+      <h1> {t("Welcome to Herfa")}</h1>
+      <div className="hor-Line"></div>
       <div className=" form-container login-form">
         <form className="signProviderForm " onSubmit={LoginNow}>
           <div class="col-md-4 login-input">
             <div className="mb-3">
               <label for="user name" className="form-label">
-                user name
+                {t("user name")}
               </label>
 
               <input
@@ -50,7 +52,7 @@ export default function LOGIN() {
           <div class="col-md-4 login-input">
             <div className="mb-3">
               <label for="Password1" className="form-label">
-                password
+                {t("password")}
               </label>
               <input
                 type="password"
@@ -65,7 +67,7 @@ export default function LOGIN() {
           </div>
 
           <button type="submit" className="btn btn-login ">
-            Login
+            {t("Login")}
           </button>
           {/* <div class="d-grid gap-2 col-6 mx-auto">
             <button class="btn  btn-login" type="button">
@@ -77,3 +79,4 @@ export default function LOGIN() {
     </div>
   );
 }
+

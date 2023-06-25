@@ -8,13 +8,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEarthOceania, faUser } from "@fortawesome/free-solid-svg-icons";
 import { useEffect } from "react";
 import axios from "axios";
+import { useCookies } from "react-cookie";
 
 export default function NavbarProfile() {
   const [color, setColor] = useState("");
   const [userdata, setUserdata] = useState("");
   const location = useLocation();
   const [userData, setUserData] = useState([]);
-
+   const [cookies, setCookies] = useCookies(["access_token"]);
+const removeCookies = () => {
+  setCookies("access_token", "");
+  window.localStorage.removeItem("adminId");
+  window.location.reload(false);
+};
   useEffect(() => {
     if (location.pathname === "/profile") {
       document.getElementById("profile").style.color = "#ef6214";
@@ -142,7 +148,9 @@ export default function NavbarProfile() {
                 <div className="dropdown-content">
                   {userData[0]?.name && <a href="#">{userData[0].name}</a>}
                   <br />
-                  <a href="#">{t("Logout")}</a>
+                  <a href="#" onClick={removeCookies}>
+                    {t("Logout")}
+                  </a>
                 </div>
               </div>
             </div>

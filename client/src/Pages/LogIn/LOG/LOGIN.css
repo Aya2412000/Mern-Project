@@ -16,3 +16,9 @@
   color: #ef6114;
   font-weight: bold;
 }
+.hor-Line{
+  width: 100px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #ef6114;
+}
