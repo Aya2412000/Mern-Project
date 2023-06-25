@@ -1,0 +1,89 @@
+{
+  "navbar": "",
+
+  "LOGO": "Herfa",
+  "Home": "Home",
+  "Services": "Services",
+  "Who-us": "About Us",
+  "Contact-us": "Contact Us",
+  "Blog": "Blog",
+  "Search-placeholder": "search..!",
+  "Search-btn": "Search!",
+  "Logout": "LogOut",
+
+  "header": "",
+
+  "Professional": "Professional",
+  "craftsmen": "craftsmen",
+  "at the highest level": "At the highest level",
+  "Login": "Log In",
+  "Signup": "Sign Up",
+
+  "services": "",
+
+  "main-services": "Main Services",
+  "electricity": "Electricity",
+  "carpentry": "Carpentry",
+  "conditioning": "Conditioning",
+  "Cleaning service": "Cleaning service",
+  "Painting": "Painting",
+  "Plastering": "Plastering",
+  "Plumbing": "Plumbing",
+  "Satellite&Receiver": "Satellite & Receiver",
+  "Home Appliances": "Home Appliances",
+  "Cars maintance": "Cars maintance",
+
+  "map": "",
+
+  "We are everywhere": "We are everywhere..",
+
+  "provider": "",
+
+  "Are you a craftsman?": "Are you a craftsman?",
+  "Become a service provider": "Become a service provider",
+  "text": "You can work with us, we will find you the jobs you want.",
+
+  "fooooter": "",
+
+  "Terms": "Terms",
+  "privacy": "privacy",
+  "functions": "functions",
+  "policies": "policies",
+  "Herfa Ownership": "Herfa Ownership © 2023 , All Rights Reserved",
+
+  "Sign client": "",
+
+  "Welcome to Herfa, register now": "Welcome to Herfa, register now!",
+  "first name": "frist name",
+  "last name": "last name",
+  "user name": "user name",
+  "phone number": "phone number",
+  "email": "email",
+  "address": "address",
+  "placeholder": "123 main st",
+  "city": "city",
+  "state": "state",
+  "choose": "choose..",
+  "zip": "zip",
+  "password": "password",
+  "register": "Register",
+
+  "LOGIN": "",
+
+  "Welcome to Herfa": "Welcome to Herfa",
+
+  "sign as provider": "",
+
+  "Register as a craft owner": "Register as a craft owner:",
+  "choose your craft": "choose your craft..",
+
+  "Contact Us": "",
+
+  "Connect with us": "Connect with us",
+  "Welcome": "We are always happy to receive your inquiries and suggestions, send us a message and we will contact you as soon as possible.",
+  "Send us your message": "Send us your message",
+  "Name": "Name",
+  "subject": "subject",
+  "Write your message here": "Write your message here",
+  "send the message": "Send the message"
+}

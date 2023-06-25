@@ -1,0 +1,55 @@
+.con {
+  width: 100%;
+  margin-top: 90px;
+  margin-bottom: 150px;
+}
+.h-Line {
+  width: 310px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #ef6114;
+}
+.form-container {
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  background-color: rgb(236 232 229);
+  box-shadow: -7px 12px 6px 0px gray;
+}
+.signProviderForm {
+  /* display: flex;
+  flex-flow: column; */
+  width: 90%;
+  margin: auto;
+  padding: 30px 0;
+  gap: 1rem;
+}
+input {
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  /* margin: auto; */
+  height: 2.5rem;
+}
+::placeholder {
+  text-align: inherit;
+}
+.btn-sign {
+  background-color: #ef6114;
+  font-size: 1.7rem;
+}
+.btn-sign:hover {
+  background-color: gray;
+  color: #ef6114;
+  font-weight: bold;
+}
+
+
+
+
+
+::placeholder {
+  text-align: inherit;
+}

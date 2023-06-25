@@ -1,0 +1,40 @@
+:root {
+  --primary: #ef6214;
+  --white: #fcfcfc;
+  --black: #141414;
+  --gray:#a39d8f;
+  --BG:#f6f6f6;
+  --dark-gray:#575757;
+}
+.services-is-provider {
+  padding: 6rem 0;
+  text-align: right;
+}
+.services-is-provider .provider-box {
+  background: var(--BG);
+  padding: 50px 20px;
+}
+.services-is-provider .provider-desc {
+  margin-top: 2rem;
+  width: 90%;
+}
+.services .services-is-provider .provider-desc h1 {
+  margin-bottom: 10px;
+  color: var(--black);
+}
+.services-is-provider .provider-desc p {
+  color: var(--dark-gray);
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.services-is-provider .provider-desc button {
+  background: var(--primary);
+  /* #d98d47 */
+  color: var(--white);
+  padding: 10px 20px;
+  min-height: 48px;
+  border: 1px solid #5cbd76;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,21 @@
+
+
+h1 {
+  font-size: 28px;
+  color: #141414;
+  margin-bottom: 0px;
+  line-height: 50px;
+}
+.hline-map {
+  width: 100px;
+  height: 3px;
+  margin-bottom: 20px;
+  background-color: #ef6214;
+  border-radius: 5px;
+}
+.Map {
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: gray -5px 8px 11px;
+}

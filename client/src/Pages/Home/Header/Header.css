@@ -1,0 +1,56 @@
+:root {
+  --primary: #ef6214;
+  --white: #fcfcfc;
+  --black: #141414;
+}
+.parent {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  padding-top: 215px;
+}
+.content {
+  width: 575px;
+}
+span {
+  font-size: 3rem;
+  color: #fff;
+}
+h4 {
+  color: var(--primary);
+  font-size: 4rem;
+  font-weight: 600;
+}
+.btn-In {
+  padding: 0.3rem;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  width: 200px;
+  margin: 20px;
+  font-size: 2rem;
+}
+/* donot work!! */
+.btn-In:hover {
+  background-color: var(--white);
+  color: #000;
+}
+.btn-Up {
+  padding: 0.3rem;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: transparent;
+  color: var(--white);
+  width: 200px;
+  border: 0.5px solid var(--primary);
+  margin: 20px;
+  font-size: 2rem;
+  transition: 0.5s all;
+}
+.btn-Up:hover {
+  background-color: var(--white);
+  color: #000;
+  border: none;
+}

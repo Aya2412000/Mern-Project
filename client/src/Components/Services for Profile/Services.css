@@ -1,0 +1,58 @@
+:root {
+  --primary: #ef6214;
+  --white: #fcfcfc;
+  --black: #141414;
+  --gray: #a39d8f;
+}
+.service-main {
+  margin: 50px 0;
+  padding: 30px 0 60px;
+}
+.service-main h1 {
+  font-size: 28px;
+  color: var(--black);
+  margin-bottom: 0px;
+  line-height: 50px;
+}
+/* horizontail line */
+.hLine {
+  width: 100px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: var(--primary);
+}
+.simple-border {
+  position: relative;
+}
+.collector {
+  margin-top: 30px;
+}
+.service-box {
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1607843137254902);
+  border-radius: 11px;
+  transition: all 0.2s ease-in;
+  padding: 15px 5px;
+  cursor: pointer;
+}
+.service-box .icon {
+  width: 60px;
+  height: 60px;
+  margin: 10px 0 20px;
+  background: var(--white);
+  /* border-radius: 50%; */
+  padding: 5px;
+  color: var(--white);
+}
+.service-box p {
+  font-size: 20px;
+  color: var(--black);
+  margin-top: 20px;
+}
+/* .service-box a{
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+  color: #141414;
+    margin-top: 20px;
+} */

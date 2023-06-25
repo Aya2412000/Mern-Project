@@ -1,0 +1,38 @@
+:root {
+  --primary: #ef6214;
+  --white: #fcfcfc;
+  --black: #141414;
+  --gray:#a39d8f;
+}
+footer {
+  background: var(--gray);
+  /* #2d2727; */
+  color: var(--white);
+  font-size: 18px;
+  /* position: absolute; */
+  width: 100%;
+  bottom: 0;
+}
+.links {
+  position: relative;
+  /* width: 100%; */
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+footer .links a,
+.icon,
+footer span {
+  color: var(--white);
+  padding: 10px;
+  display: inline-block;
+  direction: ltr;
+  font-size: 14px;
+  text-decoration: none;
+}
+footer .links a:hover {
+  color: var(--primary);
+}
+/* .icon:hover {
+  color: rgb(30, 30, 249);
+} */

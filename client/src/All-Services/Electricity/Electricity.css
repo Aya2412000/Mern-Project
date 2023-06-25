@@ -1,0 +1,14 @@
+.users{
+  margin: 20px 0 50px;
+}
+.craft-elec{
+    background-color: #a39d8f;
+    width: 20%;
+    color: brown;
+    height: 170px;
+    margin: 20px 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.3);
+}

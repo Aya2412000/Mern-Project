@@ -1,0 +1,18 @@
+.login-form {
+  width: 55%;
+}
+/* .login-input {
+  margin: auto;
+} */
+::placeholder {
+  text-align: inherit;
+}
+.btn-login {
+  background-color: #ef6114;
+  font-size: 1.7rem;
+}
+.btn-login:hover {
+  background-color: gray;
+  color: #ef6114;
+  font-weight: bold;
+}

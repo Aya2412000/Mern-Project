@@ -1,0 +1,89 @@
+{
+  "navbar": "",
+
+  "LOGO": "حِــرفه",
+  "Home": "الرئيسية",
+  "Services": "الخدمات",
+  "Who-us": "من نحن",
+  "Contact-us": "تواصل معنا",
+  "Blog": "مدونتنا",
+  "Search-placeholder": "بحث..!",
+  "Search-btn": "ابحث!",
+  "Logout": "تسجيل الخروج",
+
+  "header": "",
+
+  "Professional": "متخصصين",
+  "craftsmen": "حِرفيين",
+  "at the highest level": "علي أعلي مستوي",
+  "Login": "تسجيل الدخول",
+  "Signup": "إنشاء حساب",
+
+  "services": "",
+
+  "main-services": "الخدمات الرئيسة",
+  "electricity": "الكهرباء",
+  "carpentry": "النجارة",
+  "conditioning": "تكييف",
+  "Cleaning service": "خدمة النظافة",
+  "Painting": "النقاشة (دهانات)",
+  "Plastering": "المحارة",
+  "Plumbing": "السباكة",
+  "Satellite&Receiver": "الدِش والريسيفر",
+  "Home Appliances": "أجهزة منزلية",
+  "Cars maintance": "صيانية السيارات",
+
+  "map": "",
+
+  "We are everywhere": "نوجد في كل مكان..",
+
+  "provider": "",
+
+  "Are you a craftsman?": "هل أنت حِرفي؟",
+  "Become a service provider": "كن مقدم خدمة في حِــرفه",
+  "text": "يمكنك العمل معنا ، سنجد لك الوظائف التي تريدها .",
+
+  "fooooter": "",
+
+  "Terms": "الشروط",
+  "privacy": "الخصوصية",
+  "functions": "الوظائف",
+  "policies": "السياسات",
+  "Herfa Ownership": "ملكية حِــرفة © 2023 , جميع الحقوق محفوظة",
+
+  "Sign client": "",
+
+  "Welcome to Herfa, register now": "اهلا بك في حِـرفة،سجِّـل الآن!",
+  "first name": "الاسم الأول",
+  "last name": "الاسم الأخير",
+  "user name": "اسم المستخدم",
+  "phone number": "رقم الهاتف",
+  "email": "البريد الإلكتروني",
+  "address": "العنوان",
+  "placeholder": "123 شارع يوسف عباس",
+  "city": "المدينة",
+  "state": "المحافظة",
+  "choose": "اختر..",
+  "zip": "الكود",
+  "password": "كلمة المرور",
+  "register": "سجِّـل",
+
+  "LOGIN": "",
+
+  "Welcome to Herfa": "اهلا بك في حِـرفة",
+
+  "sign as provider": "",
+
+  "Register as a craft owner": "سجِّل كصاحب حِرفـة:",
+  "choose your craft": "اختر حِرفتك..",
+
+  "Contact Us": "",
+
+  "Connect with us": "تواصل معنا",
+  "Welcome": "يسعدنا تلقي استفساراتك واقتراحاتك دائمًا، أرسل لنا وسوف نتواصل معك في أقرب وقت.",
+  "Send us your message": "ابعت لنا رسالتك",
+  "Name": "الاسم",
+  "subject": "الموضوع",
+  "Write your message here": "اكتب رسالتك هنا",
+  "send the message": "ارسل رسالتك"
+}
